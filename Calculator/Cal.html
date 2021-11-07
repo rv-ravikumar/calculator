@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+
+
+    <form action="" name="Cal">
+        <table id="tablecss" align="center">
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="displayData">
+                </td>
+                <th> </th>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td><button type="button" onclick="sin()">sin</button></td>
+                <td><button type="button" onclick="cos()">cos</button></td>
+                <td><button type="button" onclick="tan()">tan</button></td>
+
+                <td><button type="button" id="equal1" onclick="Clear()">C</button></td>
+
+
+            </tr>
+            <tr>
+                <td><button type="button" onclick="square()">x<sup>2</sub></button></td>
+                <td><button type="button" onclick="qubbed()">x<sup>3</sup></button></td>
+                <td><button type="button" onclick="sqr()">&radic;</button></td>
+                <td><button type="button" id="equal1" onclick="display('/')">/</button></td>
+
+
+
+            </tr>
+
+
+            <tr>
+                <td><button type="button" onclick="display('1')">1</button></td>
+                <td><button type="button" onclick="display('2')">2</button></td>
+                <td><button type="button" onclick="display('3')">3</button></td>
+                <td><button type="button" id="equal1" onclick="display('*')" value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="display('4')">4</button></td>
+                <td><button type="button" onclick="display('5')">5</button></td>
+                <td><button type="button" onclick="display('6')">6</button></td>
+                <td><button type="button" id="equal1" onclick="display('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="display('7')">7</button></td>
+                <td><button type="button" onclick="display('8')">8</button></td>
+                <td><button type="button" onclick="display('9')">9</button></td>
+                <td><button type="button" id="equal1" onclick="display('+')">+</button></td>
+            </tr>
+            <tr>
+
+
+                <td><button type="button" onclick="display('.')">.</button></td>
+                <td><button type="button" onclick="display('0')">0</button></td>
+                <td><button type="button" onclick="del()">Del</button></td>
+
+                <td><button type="button" id="equal1" value="=" onclick="equal()">=</button></td>
+            </tr>
+
+
+
+        </table>
+    </form>
+
+
+
+
+
+
+</body>
+<script src="cal.js"></script>
+
+</html>

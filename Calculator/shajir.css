@@ -1,0 +1,9 @@
+table {
+    background-color: black;
+    border-radius: 4px;
+}
+
+button {
+    color: rgb(47, 0, 255);
+    background-color: rgb(32, 223, 236);
+}

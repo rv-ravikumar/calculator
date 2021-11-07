@@ -1,0 +1,38 @@
+button {
+    background-color: rgb(14, 63, 116);
+    border-radius: 7px;
+    color: black;
+    border: 2px solid #008cba;
+    width: 35px;
+    height: 40px;
+    /* transition: 1.5s; */
+    box-shadow: 50px 0 #e0e6e5 inset;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#tablecss {
+    padding: 3px;
+    border: 8px solid #008cba;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(6, 23, 41);
+}
+
+input {
+    border-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid #008cba;
+    height: 40px;
+}
+
+#equal1 {
+    width: 50px;
+    color: #240579;
+}
